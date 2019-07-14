@@ -1,0 +1,39 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#statsAndCards{
+    width: 20%;
+    background-color: pink;
+}
+#gameContainer{
+    width: 80%;
+    background-color: papayawhip;
+    display: flex;
+}
+#gameBoard{
+    margin: auto;
+    width: 90vmin;
+    height: 90vmin;
+    background-color: lightblue;
+
+}
+.frogCell{
+    width: 11.11%;
+    height: 11.11%;
+    
+    float: left;
+}
+.frogCellContents{
+    background-color: lightgreen;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
